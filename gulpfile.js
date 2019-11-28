@@ -18,13 +18,10 @@ const RevAll = require("gulp-rev-all");
 
 const babel = require("gulp-babel");
 
-//const gulpIf = require('gulp-if');
-
 const del = require("del");
 
 const uglify = require("gulp-uglify");
 
-//const gutil = require('gulp-util');
 const minifyCss = require("gulp-clean-css");
 
 const htmlmin = require("gulp-htmlmin");
